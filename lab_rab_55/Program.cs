@@ -27,6 +27,18 @@ catch (Exception ex)
 
 
 
+////// Лабораторная работа 3, задание 2. Квадрат разности (a-b)^2
+////int n = 1;
+////Console.WriteLine("Введите число m: ");
+////int m = int.Parse(Console.ReadLine());
+////for (n = 1; n <= 1000; n++)
+////{
+////    Console.WriteLine($"Квадрат разности n и m: ({n}-{m})^2 = {((Math.Pow(n,2)) - (2*n*m) + (Math.Pow(m,2)))}");
+
+////}
+
+
+
 //// Лабораторная работа 3. Задание 3
 //try
 //{
