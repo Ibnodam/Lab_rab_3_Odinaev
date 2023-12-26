@@ -62,17 +62,15 @@ catch (Exception ex)
 
 
 
-//////////// Задание 4
-//////double a = 0;
-//////for (double x = -3; x <= 2; x += 0.25)
-//////{
-//////    if (x > 0)
-//////    {
-//////        a = 0;
-//////        for (int k = 1; k <= 5; k++) a += Math.Pow(x, k);
-//////        Console.WriteLine($"f(x) = {(a):F2} , при x = {x}");
-//////    }
-//////    else if (x <= 0) Console.WriteLine($"f(x) = {(Math.Pow(Math.PI,(3.5*x))):F2} , при x = {x}");
-//////}
-
-
+////// Задание 4
+//double a = 0;
+//for (double x = -3; x <= 2; x += 0.25)
+//{
+//    if (x > 0)
+//    {
+//        a = 0;
+//        for (int k = 1; k <= 5; k++) a += Math.Pow(x, k);
+//        Console.WriteLine($"f(x) = {(a):F2} , при x = {x}");
+//    }
+//    else if (x <= 0) Console.WriteLine($"f(x) = {(Math.Pow(Math.PI, (3.5 * (x)))):F6} , при x = {x}"); // Сделал округление до 6 - го знака, т.к. некоторые результаты слишком малы(0,000006)
+//}
